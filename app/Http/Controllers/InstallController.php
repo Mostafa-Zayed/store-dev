@@ -46,7 +46,7 @@ class InstallController extends Controller
     public function step5() {
         return view('installation.step5');
     }
-
+    // [L6;00Wkp
     public function purchase_code(Request $request) {
         if (\App\Utility\CategoryUtility::create_initial_category($request->purchase_code) == false) {
             flash("Sorry! The purchase code you have provided is not valid.")->error();

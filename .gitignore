@@ -28,5 +28,5 @@ ecommerce.zip
 install.zip
 /nbproject/private/
 /nbproject
-
+/app/Http/Helpers.php
 public/uploads.zip
